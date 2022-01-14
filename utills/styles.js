@@ -10,11 +10,14 @@ const useStyles = makeStyles({
             marginLeft: '10'
         },
     },
-    main:{
-        minHeight:'80vh'
+    grow: {
+        flexGrow: 10
     },
-    footer:{
-        textAlign:'center'
+    main: {
+        minHeight: '80vh'
+    },
+    footer: {
+        textAlign: 'center'
     }
 })
 export default useStyles;
